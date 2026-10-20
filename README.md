@@ -9,8 +9,8 @@ Un nom de prestige, une gestion d'excellence. Site **Next.js** (`web/`) et **API
 Prérequis : [Node.js 20 ou plus](https://nodejs.org) et Git.
 
 ```bash
-git clone <adresse-du-depot>
-cd immobell/web
+git clone https://github.com/bbaf07/Immo-Bell.git
+cd Immo-Bell/web
 npm install
 npm run dev
 ```
@@ -28,6 +28,7 @@ Le déroulé conseillé de 10 minutes est dans [docs/guide-demo.md](docs/guide-d
 
 | Document | Contenu |
 |---|---|
+| [docs/rapports/Guide-de-demonstration-ImmoBell.pdf](docs/rapports/Guide-de-demonstration-ImmoBell.pdf) | **Tutoriel de démonstration** : lancement, comptes fictifs, données d'exemple, parcours pas à pas |
 | [docs/rapports/Rapport-1-Site-ImmoBell.pdf](docs/rapports/Rapport-1-Site-ImmoBell.pdf) | Ce que fait le site, architecture, sécurité, état d'avancement, déroulé de démonstration |
 | [docs/rapports/Rapport-2-Mise-en-place-Douala.pdf](docs/rapports/Rapport-2-Mise-en-place-Douala.pdf) | Offre, équipe, locaux, installations, cadre juridique, calendrier, budget (hypothèses à valider) |
 
