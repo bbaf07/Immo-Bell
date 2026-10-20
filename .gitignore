@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.venv/
+*.db
+*.tsbuildinfo
+.claude/
+3-projet-reel/
+pdfium/
+web/.next/

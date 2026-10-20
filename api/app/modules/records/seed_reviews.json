@@ -1,0 +1,90 @@
+[
+ {
+  "ref": "IB-BNJ-001",
+  "who": "Carine M.",
+  "stars": 5,
+  "text": "Appartement conforme aux photos, dossier traité rapidement.",
+  "t": 1791445675479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BNJ-001",
+  "who": "Serge T.",
+  "stars": 4,
+  "text": "Très bon emplacement, groupe électrogène efficace.",
+  "t": 1789890475479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-AKW-003",
+  "who": "Natacha B.",
+  "stars": 4,
+  "text": "Studio propre et bien situé.",
+  "t": 1791791275479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BPR-002",
+  "who": "Éric N.",
+  "stars": 5,
+  "text": "Villa superbe, gestion sérieuse.",
+  "t": 1788594475479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BNJ-013",
+  "who": "Paul D.",
+  "stars": 5,
+  "text": "Séjour d'affaires parfait, conciergerie très utile pour s'orienter à Douala.",
+  "t": 1791964075479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BNJ-013",
+  "who": "Aïcha K.",
+  "stars": 5,
+  "text": "Appartement impeccable, ménage au standard hôtelier.",
+  "t": 1790754475479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BNJ-013",
+  "who": "Marc L.",
+  "stars": 4,
+  "text": "Très bien placé près des administrations. Wifi correct.",
+  "t": 1789544875479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BMS-004",
+  "who": "Éric N.",
+  "stars": 4,
+  "text": "Immeuble sécurisé, quartier calme. Dossier validé en deux jours.",
+  "t": 1791618475479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-LGP-009",
+  "who": "Famille T.",
+  "stars": 5,
+  "text": "Titre foncier vérifié par le pôle juridique, achat serein.",
+  "t": 1791186475479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-AKW-006",
+  "who": "Boutique Lumière",
+  "stars": 4,
+  "text": "Très bonne visibilité, rideau métallique solide.",
+  "t": 1790581675479,
+  "by": "demo"
+ },
+ {
+  "ref": "IB-BNJ-016",
+  "who": "Ingrid F.",
+  "stars": 5,
+  "text": "Idéal pour ma mission de 4 mois, tout était prêt à l'arrivée.",
+  "t": 1791704875479,
+  "by": "demo"
+ }
+]

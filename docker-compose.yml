@@ -1,0 +1,41 @@
+# Environnement de développement complet : docker compose up --build
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    environment:
+      POSTGRES_DB: immobell
+      POSTGRES_USER: immobell
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?définir POSTGRES_PASSWORD dans .env}
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+      - ./api/db:/docker-entrypoint-initdb.d:ro
+    ports: ["127.0.0.1:5432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U immobell"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports: ["127.0.0.1:6379:6379"]
+
+  api:
+    build: ./api
+    environment:
+      IMMOBELL_ENV: dev
+      IMMOBELL_DATABASE_URL: postgresql+psycopg://immobell:${POSTGRES_PASSWORD}@db:5432/immobell
+      IMMOBELL_CORS_ORIGINS: '["http://localhost:3000"]'
+      IMMOBELL_ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}  # vide = assistant désactivé (503)
+    depends_on:
+      db: { condition: service_healthy }
+    ports: ["127.0.0.1:8000:8000"]
+
+  web:
+    build: ./web
+    environment:
+      IMMOBELL_API_URL: http://api:8000
+    depends_on: [api]
+    ports: ["127.0.0.1:3000:3000"]
+
+volumes:
+  dbdata:

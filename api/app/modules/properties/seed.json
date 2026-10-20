@@ -1,0 +1,364 @@
+{
+  "quartiers": {
+    "Bonanjo": [
+      4.0455,
+      9.691
+    ],
+    "Akwa": [
+      4.0511,
+      9.7
+    ],
+    "Bonapriso": [
+      4.033,
+      9.697
+    ],
+    "Deido": [
+      4.063,
+      9.705
+    ],
+    "Bali": [
+      4.048,
+      9.713
+    ],
+    "Bepanda": [
+      4.058,
+      9.73
+    ],
+    "Makepe": [
+      4.07,
+      9.745
+    ],
+    "Bonamoussadi": [
+      4.077,
+      9.736
+    ],
+    "Kotto": [
+      4.085,
+      9.76
+    ],
+    "Logpom": [
+      4.062,
+      9.77
+    ]
+  },
+  "properties": [
+    {
+      "ref": "IB-BNJ-001",
+      "title": "Appartement 3 pièces, résidence Wouri",
+      "type": "Appartement",
+      "mode": "Location",
+      "q": "Bonanjo",
+      "price": 350000,
+      "rooms": 3,
+      "surface": 92,
+      "status": "libre",
+      "h": 200,
+      "eq": [
+        "Climatisation",
+        "Groupe électrogène",
+        "Gardien",
+        "Parking",
+        "Eau de forage"
+      ],
+      "desc": "Appartement lumineux au 2e étage, proche des administrations et des banques de Bonanjo. Cuisine équipée, deux salles d'eau.",
+      "cond": "Dépôt de garantie : 2 mois. Étude de dossier avant attribution."
+    },
+    {
+      "ref": "IB-BPR-002",
+      "title": "Villa 5 pièces avec jardin",
+      "type": "Villa",
+      "mode": "Location",
+      "q": "Bonapriso",
+      "price": 1200000,
+      "rooms": 5,
+      "surface": 260,
+      "status": "occupé",
+      "h": 150,
+      "eq": [
+        "Piscine",
+        "Groupe électrogène",
+        "Gardien",
+        "Parking 3 véhicules",
+        "Climatisation"
+      ],
+      "desc": "Villa de standing dans une rue calme de Bonapriso, jardin clos et logement de gardien.",
+      "cond": "Dépôt de garantie : 3 mois. Assurance loyers impayés conseillée."
+    },
+    {
+      "ref": "IB-AKW-003",
+      "title": "Studio meublé centre d'Akwa",
+      "type": "Studio",
+      "mode": "Location",
+      "q": "Akwa",
+      "price": 120000,
+      "rooms": 1,
+      "surface": 28,
+      "status": "libre",
+      "h": 30,
+      "eq": [
+        "Meublé",
+        "Climatisation",
+        "Wifi",
+        "Eau chaude"
+      ],
+      "desc": "Studio meublé à deux pas des commerces et des transports d'Akwa. Idéal étudiant ou jeune actif.",
+      "cond": "Dépôt de garantie : 2 mois."
+    },
+    {
+      "ref": "IB-BMS-004",
+      "title": "Appartement 2 pièces, Bonamoussadi",
+      "type": "Appartement",
+      "mode": "Location",
+      "q": "Bonamoussadi",
+      "price": 180000,
+      "rooms": 2,
+      "surface": 55,
+      "status": "libre",
+      "h": 100,
+      "eq": [
+        "Carrelage",
+        "Balcon",
+        "Parking",
+        "Château d'eau"
+      ],
+      "desc": "Appartement récent dans un immeuble sécurisé, proche des écoles et du marché.",
+      "cond": "Dépôt de garantie : 2 mois."
+    },
+    {
+      "ref": "IB-BNJ-005",
+      "title": "Plateau de bureaux 110 m²",
+      "type": "Bureau",
+      "mode": "Location",
+      "q": "Bonanjo",
+      "price": 600000,
+      "rooms": 4,
+      "surface": 110,
+      "status": "réservé",
+      "h": 215,
+      "eq": [
+        "Climatisation",
+        "Fibre optique",
+        "Ascenseur",
+        "Groupe électrogène",
+        "Parking"
+      ],
+      "desc": "Plateau open space et quatre bureaux cloisonnés, immeuble avec accueil.",
+      "cond": "Bail commercial. Dépôt de garantie : 3 mois."
+    },
+    {
+      "ref": "IB-AKW-006",
+      "title": "Boutique sur rue passante",
+      "type": "Boutique",
+      "mode": "Location",
+      "q": "Akwa",
+      "price": 450000,
+      "rooms": 2,
+      "surface": 48,
+      "status": "libre",
+      "h": 20,
+      "eq": [
+        "Vitrine",
+        "Rideau métallique",
+        "Arrière-boutique",
+        "Compteur indépendant"
+      ],
+      "desc": "Boutique avec forte visibilité, arrière-boutique de stockage et accès livraison.",
+      "cond": "Bail commercial. Dépôt de garantie : 3 mois."
+    },
+    {
+      "ref": "IB-BAL-007",
+      "title": "Fonds de commerce : restaurant",
+      "type": "Fonds de commerce",
+      "mode": "Vente",
+      "q": "Bali",
+      "price": 18000000,
+      "rooms": 3,
+      "surface": 85,
+      "status": "libre",
+      "h": 340,
+      "eq": [
+        "Cuisine professionnelle",
+        "Terrasse",
+        "Licence en règle",
+        "Clientèle établie"
+      ],
+      "desc": "Restaurant en activité depuis 6 ans. Éléments corporels : matériel, agencement, stock. Éléments incorporels : clientèle, enseigne, droit au bail. Évaluation contradictoire avant cession.",
+      "cond": "Examen par la commission d'attribution. Contrat de vente ou de location-gérance."
+    },
+    {
+      "ref": "IB-MKP-008",
+      "title": "Appartement 4 pièces familial",
+      "type": "Appartement",
+      "mode": "Location",
+      "q": "Makepe",
+      "price": 280000,
+      "rooms": 4,
+      "surface": 120,
+      "status": "occupé",
+      "h": 180,
+      "eq": [
+        "Climatisation",
+        "Parking",
+        "Gardien",
+        "Cuisine équipée"
+      ],
+      "desc": "Grand appartement familial dans une résidence calme de Makepe.",
+      "cond": "Dépôt de garantie : 2 mois."
+    },
+    {
+      "ref": "IB-LGP-009",
+      "title": "Villa 6 pièces à vendre",
+      "type": "Villa",
+      "mode": "Vente",
+      "q": "Logpom",
+      "price": 45000000,
+      "rooms": 6,
+      "surface": 320,
+      "status": "libre",
+      "h": 35,
+      "eq": [
+        "Titre foncier",
+        "Forage",
+        "Garage double",
+        "Jardin"
+      ],
+      "desc": "Villa neuve sur terrain de 600 m², titre foncier disponible pour vérification.",
+      "cond": "Documents de propriété contrôlés par le pôle juridique avant mise en vente."
+    },
+    {
+      "ref": "IB-DDO-010",
+      "title": "Salon de coiffure en location-gérance",
+      "type": "Fonds de commerce",
+      "mode": "Location-gérance",
+      "q": "Deido",
+      "price": 250000,
+      "rooms": 2,
+      "surface": 40,
+      "status": "libre",
+      "h": 300,
+      "eq": [
+        "Mobilier de salon",
+        "Clientèle",
+        "Climatisation"
+      ],
+      "desc": "Fonds de salon de coiffure équipé, repreneur ou locataire-gérant recherché.",
+      "cond": "État des lieux contradictoire. Analyse financière de l'activité."
+    },
+    {
+      "ref": "IB-DDO-011",
+      "title": "Appartement 3 pièces, Deido",
+      "type": "Appartement",
+      "mode": "Location",
+      "q": "Deido",
+      "price": 220000,
+      "rooms": 3,
+      "surface": 78,
+      "status": "libre",
+      "h": 190,
+      "eq": [
+        "Carrelage",
+        "Parking"
+      ],
+      "desc": "Appartement au 1er étage, proche du pont de Deido.",
+      "cond": "Dépôt de garantie : 2 mois."
+    },
+    {
+      "ref": "IB-MKP-012",
+      "title": "Fonds de commerce : boulangerie",
+      "type": "Fonds de commerce",
+      "mode": "Vente",
+      "q": "Makepe",
+      "price": 9500000,
+      "rooms": 2,
+      "surface": 60,
+      "status": "libre",
+      "h": 40,
+      "eq": [
+        "Four professionnel",
+        "Pétrin",
+        "Vitrine réfrigérée"
+      ],
+      "desc": "Boulangerie de quartier avec four et matériel complet.",
+      "cond": "Évaluation contradictoire requise."
+    },
+    {
+      "ref": "IB-BNJ-013",
+      "title": "Appartement meublé court séjour, Bonanjo",
+      "type": "Appartement",
+      "mode": "Saisonnière",
+      "q": "Bonanjo",
+      "price": 45000,
+      "rooms": 2,
+      "surface": 60,
+      "status": "libre",
+      "h": 45,
+      "eq": [
+        "Meublé",
+        "Ménage standard hôtelier",
+        "Wifi",
+        "Climatisation",
+        "Conciergerie"
+      ],
+      "desc": "Pour cadres, expatriés et touristes d'affaires. Nettoyage avant et après chaque séjour, conciergerie pour l'orientation vers les loisirs et la culture de Douala.",
+      "cond": "Séjour court ou long terme. Caution à l'arrivée."
+    },
+    {
+      "ref": "IB-LGP-014",
+      "title": "Terrain de 600 m² avec titre foncier",
+      "type": "Terrain",
+      "mode": "Vente",
+      "q": "Logpom",
+      "price": 25000000,
+      "rooms": 0,
+      "surface": 600,
+      "status": "libre",
+      "h": 100,
+      "eq": [
+        "Titre foncier",
+        "Accès route bitumée",
+        "Eau et électricité à proximité"
+      ],
+      "desc": "Terrain en périphérie, adapté à une construction ou à une valorisation. Dossier technique constitué par Immo Bell.",
+      "cond": "Vente sécurisée : contrôle des documents de propriété par le pôle juridique."
+    },
+    {
+      "ref": "IB-AKW-015",
+      "title": "Chambre en colocation, Akwa",
+      "type": "Appartement",
+      "mode": "Colocation",
+      "q": "Akwa",
+      "price": 90000,
+      "rooms": 1,
+      "surface": 18,
+      "status": "libre",
+      "h": 20,
+      "eq": [
+        "Meublé",
+        "Cuisine partagée",
+        "Wifi",
+        "Gardien"
+      ],
+      "desc": "Chambre dans un appartement de trois chambres, charges comprises.",
+      "cond": "Dépôt de garantie : 1 mois."
+    },
+    {
+      "ref": "IB-BNJ-016",
+      "title": "Studio en bail de mobilité",
+      "type": "Studio",
+      "mode": "Bail de mobilité",
+      "q": "Bonanjo",
+      "price": 150000,
+      "rooms": 1,
+      "surface": 32,
+      "status": "libre",
+      "h": 210,
+      "eq": [
+        "Meublé",
+        "Climatisation",
+        "Wifi"
+      ],
+      "desc": "Studio pour mission professionnelle ou formation de quelques mois.",
+      "cond": "Durée de 1 à 10 mois, sans dépôt de garantie classique. À confirmer avec le pôle juridique."
+    }
+  ]
+}

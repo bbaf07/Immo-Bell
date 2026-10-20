@@ -1,0 +1,38 @@
+/* Fiches imprimables : l'écran montre une feuille A4, l'impression ne garde que la feuille. */
+.pbar{position:fixed;top:0;left:0;right:0;z-index:10001;display:flex;gap:10px;align-items:center;justify-content:center;padding:10px;background:#0a0a0a}
+.pbar a,.pbar button{font:600 .9rem Montserrat,Arial,sans-serif;padding:9px 18px;border:1px solid #f2b000;background:#f2b000;color:#0a0a0a;text-decoration:none;cursor:pointer}
+.pbar a{background:transparent;color:#f2b000}
+.pfade{position:fixed;inset:0;z-index:10000;overflow:auto;background:#e9e5da;padding:68px 12px 28px}
+.psheet{box-sizing:border-box;width:210mm;max-width:100%;min-height:297mm;margin:0 auto;background:#fff;color:#0a0a0a;padding:16mm 16mm 12mm;font:14px/1.5 Montserrat,Arial,sans-serif;display:flex;flex-direction:column}
+.psheet header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:3px solid #f2b000;padding-bottom:10px;margin-bottom:16px}
+.psheet header img{height:62px;width:auto;flex:none;object-fit:contain}
+.psheet header div{text-align:right}
+.psheet .pk{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#7a5a00;font-weight:700}
+.psheet h1{font-size:1.45rem;line-height:1.2;margin:2px 0 0}
+.psheet h2{font-size:1rem;margin:16px 0 6px;padding-bottom:3px;border-bottom:1px solid #d9d2bf}
+.psheet p{margin:0 0 8px}
+.psheet ul{margin:0 0 8px;padding-left:1.2em}
+.psheet li{margin:2px 0}
+.psheet table{width:100%;border-collapse:collapse;margin:6px 0 10px}
+.psheet th,.psheet td{border:1px solid #bdb59f;padding:6px 8px;text-align:left;vertical-align:top;font-size:.85rem}
+.psheet th{background:#f6f1e1;width:34%;color:#0a0a0a;font-weight:700;letter-spacing:0;text-transform:none}
+.psheet table.grid th{width:auto}
+.psheet .fill{display:inline-block;min-width:60mm;border-bottom:1px solid #0a0a0a;height:1.2em;vertical-align:bottom}
+.psheet .box{height:22mm;border:1px solid #bdb59f;margin:6px 0 10px}
+.psheet .sig{display:grid;grid-template-columns:1fr 1fr;gap:16mm;margin-top:14px}
+.psheet .sig div{border-top:1px solid #0a0a0a;padding-top:4px;font-size:.8rem;min-height:22mm}
+.psheet .note{border:1px dashed #bdb59f;padding:8px 10px;font-size:.82rem;color:#4a4636;margin-top:8px}
+.psheet footer{margin-top:auto;padding-top:12px;border-top:1px solid #d9d2bf;font-size:.75rem;color:#4a4636;display:flex;justify-content:space-between;gap:12px}
+.psheet h3.party{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin:12px 0 2px;color:#7a5a00}
+.psheet table.idt td{height:11mm}
+.psheet table.idt tr:first-child td{height:16mm}
+.pcols{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+@page{size:A4;margin:0}
+@media print{
+  body *{visibility:hidden}
+  .pfade,.pfade *{visibility:visible}
+  .pfade{position:absolute;inset:auto;left:0;top:0;width:100%;padding:0;background:#fff;overflow:visible}
+  .pbar{display:none}
+  .psheet{width:210mm;min-height:297mm;margin:0;box-shadow:none}
+  .psheet h2,.psheet table,.psheet .sig{break-inside:avoid}
+}

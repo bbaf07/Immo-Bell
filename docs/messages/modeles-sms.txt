@@ -1,0 +1,83 @@
+welcome
+  Objet e-mail : Bienvenue chez Immo Bell, Carine
+  SMS (53/160) : Immo Bell : bienvenue Carine. Votre compte est actif.
+
+password_reset
+  Objet e-mail : Réinitialisation de votre mot de passe Immo Bell
+  SMS (0/160) : (aucun)
+
+request_received
+  Objet e-mail : Demande RES-2026-0421 reçue
+  SMS (59/160) : Immo Bell : demande RES-2026-0421 recue. Reponse sous 72 h.
+
+request_missing_doc
+  Objet e-mail : Pièce manquante pour votre demande RES-2026-0421
+  SMS (88/160) : Immo Bell : il manque une piece au dossier RES-2026-0421. Deposez-la dans Mes documents.
+
+request_accepted
+  Objet e-mail : Dossier accepté : demande RES-2026-0421
+  SMS (86/160) : Immo Bell : dossier RES-2026-0421 accepte. Nous vous contactons pour l'etat des lieux.
+
+request_rejected
+  Objet e-mail : Dossier rejeté : demande RES-2026-0421
+  SMS (97/160) : Immo Bell : dossier RES-2026-0421 non retenu (Bien déjà attribué). Ecrivez-nous pour en discuter.
+
+request_reminder
+  Objet e-mail : Rappel : le dossier RES-2026-0421 attend une décision
+  SMS (79/160) : Immo Bell : dossier RES-2026-0421, il reste 12 h avant la fin du delai de 72 h.
+
+property_submitted
+  Objet e-mail : Nouveau bien à valider : IB-BNJ-001
+  SMS (46/160) : Immo Bell : nouveau bien a valider IB-BNJ-001.
+
+property_validated
+  Objet e-mail : Votre bien IB-BNJ-001 est publié
+  SMS (45/160) : Immo Bell : votre bien IB-BNJ-001 est publie.
+
+property_refused
+  Objet e-mail : Votre bien IB-BNJ-001 n'a pas été retenu
+  SMS (75/160) : Immo Bell : votre bien IB-BNJ-001 n'a pas ete retenu. Nous vous contactons.
+
+incident_received
+  Objet e-mail : Signalement RES-2026-0421 reçu
+  SMS (82/160) : Immo Bell : signalement RES-2026-0421 recu. Prestataire dispatche selon l'urgence.
+
+incident_dispatched
+  Objet e-mail : RES-2026-0421 : un prestataire est en route
+  SMS (61/160) : Immo Bell : Plomberie du Wouri intervient pour RES-2026-0421.
+
+incident_closed
+  Objet e-mail : Intervention RES-2026-0421 terminée
+  SMS (48/160) : Immo Bell : intervention RES-2026-0421 terminee.
+
+quote_received
+  Objet e-mail : Demande de devis RES-2026-0421 reçue
+  SMS (49/160) : Immo Bell : demande de devis RES-2026-0421 recue.
+
+quote_sent
+  Objet e-mail : Votre devis RES-2026-0421 est prêt
+  SMS (65/160) : Immo Bell : devis RES-2026-0421 recu, 90 000 FCFA, delai 2 jours.
+
+quote_assigned
+  Objet e-mail : Nouvelle demande de devis RES-2026-0421
+  SMS (64/160) : Immo Bell : nouvelle demande de devis RES-2026-0421 (Plomberie).
+
+case_opened
+  Objet e-mail : Litige RES-2026-0421 ouvert
+  SMS (77/160) : Immo Bell : litige RES-2026-0421 ouvert. Reponse de l'autre partie sous 72 h.
+
+case_reply
+  Objet e-mail : RES-2026-0421 : l'autre partie a répondu
+  SMS (53/160) : Immo Bell : reponse deposee au dossier RES-2026-0421.
+
+case_resolved
+  Objet e-mail : Décision rendue : dossier RES-2026-0421
+  SMS (47/160) : Immo Bell : decision rendue pour RES-2026-0421.
+
+message_new
+  Objet e-mail : Nouveau message de votre conseillère Immo Bell
+  SMS (46/160) : Immo Bell : nouveau message dans votre espace.
+
+notification
+  Objet e-mail : Dépôt de garantie
+  SMS (51/160) : Immo Bell : Votre dossier passe en étude juridique.
