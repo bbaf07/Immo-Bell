@@ -31,7 +31,13 @@ export function HomeView() {
           <div className="eyebrow">Gestion locative et valorisation immobilière à Bonanjo, Douala</div>
           <h1 style={{ marginTop: 14 }}>Un nom de prestige, une gestion d&apos;excellence</h1>
           <WaveLine />
-          <p className="lead">Trouvez, comparez et réservez un logement, un local ou un fonds de commerce. Chaque dossier est étudié par le pôle juridique avant attribution.</p>
+          <p className="lead">Nous accompagnons les personnes physiques et morales dans le processus de gestion des biens meubles et immeubles à travers :</p>
+          <ul className="lead" style={{ margin: "0 0 14px", paddingLeft: "1.2em" }}>
+            <li>La gestion locative 360 degrés</li>
+            <li>La gestion des fonds de commerce</li>
+            <li>Le management des aménagements et déménagements</li>
+            <li>L&apos;entretien de l&apos;appareillage et des biens</li>
+          </ul>
           <div className="trust"><span><Ic n="shield" /> Dossiers vérifiés</span><span><Ic n="clock" /> Réponse sous 72 h</span><span><Ic n="phone" /> SAV de 8 h à 18 h</span></div>
           <button className="hero-ai" onClick={() => openChat()}><Ic n="spark" />Décrivez votre projet à Awa, notre conseillère IA</button>
         </div>
