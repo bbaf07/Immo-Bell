@@ -114,16 +114,10 @@ def new(bg, notes, trans=PUSH):
 s = new(DARK, "Introduction : voici l’essentiel pour la direction. Un objectif de 100 contrats et 50 M FCFA, atteint sans publicité payante, grâce à cinq pôles qui s’enchaînent. Les chiffres viennent de la présentation de synthèse ; le site et la démonstration illustrent l’outil.")
 logo = s.pic(LOGO_L, 128, 84, 190, 154)
 rule = s.box(128, 276, 200, 8, fill=GOLD)
-h = s.txt(128, 320, 1600, 240, [dict(t="Synthèse de direction", sz=110, b=True, c=PALE, ls=0.9)])
-sub = s.txt(128, 560, 1560, 130, [dict(t="Cinq pôles, une même chaîne : offrir, faire connaître, sécuriser, suivre et livrer.", sz=40, c=DMUTED)])
-ks = []
-for i, (n, l) in enumerate([("100", "contrats"), ("50 M", "FCFA visés"), ("0 F", "de publicité"), ("5", "pôles")]):
-    ks.append(s.txt(128 + i * 420, 760, 380, 180, [dict(t=n, sz=80, b=True, c=GOLD), dict(t=l, sz=28, c=DMUTED)]))
-dt = s.txt(1100, 984, 700, 40, [dict(t="OCTOBRE 2026", sz=24, c=DMUTED)])
-s.anim("fade", logo); s.anim("wipel", rule); s.anim("rise", h); s.anim("rise", sub)
-for k in ks:
-    s.anim("rise", k)
-s.anim("fade", dt)
+h = s.txt(128, 320, 1560, 400, [dict(t="Un nom de prestige, une gestion d’excellence", sz=120, b=True, c=PALE, ls=0.9)])
+sub = s.txt(128, 760, 1500, 120, [dict(t="Gestion locative et services immobiliers à Bonanjo, Douala", sz=44, c=DMUTED)])
+dt = s.txt(128, 940, 1200, 40, [dict(t="Présentation aux investisseurs · Octobre 2026", sz=24, c=DMUTED)])
+s.anim("fade", logo); s.anim("wipel", rule); s.anim("rise", h); s.anim("rise", sub); s.anim("fade", dt)
 s.finish()
 
 # ---------------------------------------------------------------- 2 cinq pôles
